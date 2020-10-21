@@ -13,8 +13,9 @@ Typically this is conceptualized on the level of a contested issue as space alon
 With that came the need to present this model descriptively for our cases. Here's one example output of preliminary function based on `matplotlib`:
 
 <figure>
-<img src="continuum.png" alt="example continuum plot" width=1000 height=260>
+<img src="/assets/img/continuum.png" width=1000 height=260>
 </figure>
+
 
 Aside the straightforward plotting code (hiding the axes, centering it, etc.), the function solves some interesting problems:
 
