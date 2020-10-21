@@ -16,7 +16,7 @@ This information may uncover things that were missed out on, theoretically or ot
 Its Python functions simply take an (properly indexed) series of predictions, a series of observations, and a series of associated descriptive labels for the observations. For a regression problem, a simple variation we produce looks like this:
 
 <figure>
-<img src="./simple_error.png" alt="simple error plot" width=350 height=350>
+<img src="_posts/error_plots/simple_error.png" alt="simple error plot" width=350 height=350>
 </figure>
 
 This achieves multiple things: 
@@ -28,7 +28,7 @@ This achieves multiple things:
 An alternative plotting function instead plots observations ordered by predicted value, coloring the observed value blue to red and adding an alpha channel that is determined by the magnitude of the error:
 
 <figure>
-<img src="./prediction_by_obs.png" alt="advanced error plot" width=400 height=380>
+<img src="_posts/error_plots/prediction_by_obs.png" alt="advanced error plot" width=400 height=380>
 </figure>
 
 This setup allows us to divide our plot up into quadrants. Red dots inside the bottom-left quadrant mean that the model got the sign wrong, and vice versa for the top-right quadrant. In addition, given the length of the top-right quadrant here, the figure shows that the greater majority of predictions are above 0. Again, it displays the top `n` over- and underpredictions. 
