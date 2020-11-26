@@ -7,7 +7,7 @@ tag:
   - spatial
 ---
 
-GeoPandas offers some very convenient functionalities for users wanting to compare multiple spatial datasets. See their user guide [here](https://geopandas.org/set_operations.html). However, while GeoPandas's illustrated examples are very useful, the instructions would benefit of an example of what one can do beyond applying the overlay operation. 
+GeoPandas offers some very convenient functionalities for users wanting to compare multiple spatial datasets. See their user guide [here](https://geopandas.org/set_operations.html). However, while GeoPandas's illustrated examples are very useful, the instructions would benefit from an example of what one can do beyond applying the overlay operation. 
 
 I ran into this while working on a project for which I needed to map spatial data on a grid, to the shapes of counties. As an additional rule, I only wanted border cells mapped to those counties that have the highest share of area. Let's illustrate the problem:
 
